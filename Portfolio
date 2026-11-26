@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio | vedika gadhe</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="logo">Vedika Gadhe</div>
+            <ul>
+                <li><a href="#home" class="active">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section id="home" class="home">
+        <div>
+            <h1>Welcome to My Portfolio<br><span>Vedika Gadhe</span></h1>
+            <p>I am a First Year Engineering Student passionate about learning Web Development and Programming.</p>
+            <a href="#contact" class="btn">Contact Me</a>
+        </div>
+        <img src="https://res.cloudinary.com/gtaukgui/image/upload/t_media_lib_thumb/e63ed400-efe9-4a5f-8abe-1e847142bf29.jpg" alt="My Photo" class="profile-img">
+    </section>
+    <section id="about">
+        <h2>About Me</h2>
+        <div class="about-box">
+            <p>Hello! My name is Vedika machhindra gadhe. I am currently pursuing B.Tech in First Year. I completed my schooling from my hometown and I am interested in building websites and learning new technologies. My goal is to become a skilled Gen Ai Engineer.</p>
+
+        </div>
+    </section>
+    <section id="skills">
+        <h2>Skills</h2>
+        <div class="skills-grid">
+            <div class="skill-card">💻<p>HTML</p>
+            </div>
+            <div class="skill-card">🎨<p>CSS</p>
+            </div>
+            <div class="skill-card">🐍<p>Python</p>
+            </div>
+            <div class="skill-card">⌨️<p>C Programming</p>
+            </div>
+            <div class="skill-card">🗣️<p>Communication</p>
+            </div>
+        </div>
+    </section>
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="projects-grid">
+            <div class="project-card">
+                <img src="https://i.ibb.co/jkhg1K3J/Screenshot-2026-11-24-124210.png" height="200px" width="350px" alt="Project 1">
+                <div>
+                    <h3> AI shopping Assistant</h3>
+                    <p>An AI Powered shopping assistant that helps users find best products,compare prices and get personalized recommendations using Gen AI.</p>
+                    <a href="https://i.ibb.co/jkhg1K3J/Screenshot-2026-11-24-124210.png" class="small-btn">View Project</a>
+                </div>
+            </div>
+            <div class="project-card">
+                <img src="https://i.ibb.co/rG6QzbRT/Screenshot-2026-11-24-124309.png" height="200px" width="350px" alt="Project 2">
+                <div>
+                    <h3>AI Summarizer</h3>
+                    <p>A Gen AI tool that converts long articles, notes and PDF's into short, easy to understand summaries in seconds.</p>
+                    <a href="https://i.ibb.co/rG6QzbRT/Screenshot-2026-11-24-124309.png" class="small-btn">View Project</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="contact">
+        <h2>Contact</h2>
+        <div class="contact-box">
+            <div>
+                <p>👤 Vedika Machhindra Gadhe</p>
+                <p>📧 vedikagadhe45@gmail.com</p>
+                <p>📍 Hinjewadi Pune, Maharashtra</p>
+            </div>
+            <form>
+                <input type="text" placeholder="Full Name" required>
+                <input type="email" placeholder="Email Address" required>
+                <input type="text" placeholder="Subject" required>
+                <textarea placeholder="Message" rows="4" required></textarea>
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <p>© Vedika. All rights reserved.</p>
+        <p>LinkedIn | GitHub | Instagram</p>
+    </footer>
+
+</body>
+
+</html>
